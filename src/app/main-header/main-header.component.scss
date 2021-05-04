@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+  }
+
+:host > * {
+    flex: 1 0;
+}
+
+.main-header {
+    flex: 2 0;
+}
